@@ -1,0 +1,16 @@
+root = true
+
+[*.cs]
+# Estilo de indentación
+indent_style = space
+indent_size = 2 
+
+# Estilo K&R: sin nueva línea antes de la llave de apertura
+csharp_new_line_before_open_brace = none
+
+# Otras reglas comunes de formato
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
+csharp_preserve_single_line_statements = true
+csharp_preserve_single_line_blocks = true
